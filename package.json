@@ -1,0 +1,31 @@
+{
+  "name": "try-release",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/tyankatsu0105/try-release#readme",
+  "bugs": {
+    "url": "https://github.com/tyankatsu0105/try-release/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyankatsu0105/try-release.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test\"",
+    "commit": "git-cz"
+  },
+  "config": {
+    "changelog": "https://github.com/vega-corporation/solomon-baal",
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "semantic-release": "^15.13.24"
+  }
+}
