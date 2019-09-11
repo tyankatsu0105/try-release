@@ -23,7 +23,17 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/git",
+      "@semantic-release/changelog"
+   ],
+   "branch": "master"
+ },
   "devDependencies": {
+    "@semantic-release/changelog": "^3.0.4",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "^3.0.2",
     "semantic-release": "^15.13.24"
